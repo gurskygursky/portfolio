@@ -1,0 +1,7 @@
+.container {
+    background-color: gray;
+    height: max-content;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+}

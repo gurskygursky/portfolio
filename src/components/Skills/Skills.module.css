@@ -1,0 +1,43 @@
+.content {
+    background-color: cadetblue;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    justify-content: space-evenly;
+
+}
+
+.skillSection {
+    width: 50%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+
+.sectionHeading {
+    display: flex;
+    flex-flow: column;
+    align-content: center;
+}
+
+.resumeSection {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+}
+
+
+.row {
+    /*display: flex;*/
+    /*flex-wrap: wrap;*/
+
+}
+
+.educationBlock {
+    /*display: flex;*/
+    /*flex-flow: column;*/
+}
