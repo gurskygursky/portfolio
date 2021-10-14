@@ -1,13 +1,13 @@
 import './App.css';
-import {Header} from "./components/Header/Header";
-import {About} from "./components/About/About";
-import {Projects} from "./components/Projects/Projects";
-import {Skills} from "./components/Skills/Skills";
-import {Contacts} from "./components/Contacts/Contacts";
-import {Footer} from "./components/Footer/Footer";
+import {Header} from "./components/header/Header";
+import {About} from "./components/about/About";
+import {Projects} from "./components/projects/Projects";
+import {Skills} from "./components/skills/Skills";
+import {Contacts} from "./components/contacts/Contacts";
+import {Footer} from "./components/footer/Footer";
 
 
-function App() {
+export const App = () => {
     return (
         <div className="App">
             <Header/>
@@ -19,5 +19,3 @@ function App() {
         </div>
     );
 }
-
-export default App;
