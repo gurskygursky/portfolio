@@ -1,0 +1,23 @@
+.container {
+    background-color: darkslategrey ;
+    height: 100vh;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    align-content: center;
+    padding: 10px;
+}
+
+.sectionHeader {
+    background-color: yellow;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    align-content: center;
+}
+.sectionProjects {
+    width: 80%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly ;
+}

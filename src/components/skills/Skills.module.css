@@ -1,43 +1,28 @@
 .content {
     background-color: cadetblue;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    flex-flow: column;
-    justify-content: space-evenly;
-
-}
-
-.skillSection {
-    width: 50%;
-    display: flex;
-    flex-flow: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
-
-}
-
-
-.sectionHeading {
+    height: max-content;
     display: flex;
     flex-flow: column;
     align-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 15px;
 }
 
-.resumeSection {
+.skillSection {
+    width: 80%;
     display: flex;
     flex-flow: row;
-    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
-
-.row {
-    /*display: flex;*/
-    /*flex-wrap: wrap;*/
-
-}
-
-.educationBlock {
-    /*display: flex;*/
-    /*flex-flow: column;*/
+.sectionHeader {
+    background-color: yellow;
+    display: flex;
+    flex-flow: column;
+    align-content: center;
+    align-items: center;
 }

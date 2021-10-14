@@ -6,21 +6,18 @@ import {Skill} from "./skill/Skill";
 export const Skills = () => {
     return (
         <div className={style.content}>
-            <div className={style.sectionHeading}>
+            <div className={style.sectionHeader}>
                 <p className={style.sectionDescription}>Check out my skills</p>
                 <h2 className={style.sectionTitle}>Skills</h2>
             </div>
             <div className={style.skillSection}>
-                <Skill className={style.item}
-                       title={'JavaScript'}
+                <Skill title={'JavaScript'}
                        description={'text'}
                 />
-                <Skill className={style.item}
-                       title={'React'}
+                <Skill title={'React'}
                        description={'text'}
                 />
-                <Skill className={style.item}
-                       title={'CSS'}
+                <Skill title={'CSS'}
                        description={'text'}
                 />
                 <Skill title={'Web Design'}

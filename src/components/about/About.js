@@ -24,13 +24,17 @@ export const About = () => {
                     </div>
                     <div className={style.contentContact}>
                         <address className={style.contactInfo}>
+                            <div className={style.row}>
                                 <div className={style.singleInfo}>
                                     <span>Name:</span>
                                     <p>Yegor Gursky</p>
                                 </div>
                                 <div className={style.singleInfo}><span>Age:</span>
                                     <p>29</p>
+                                </div>
                             </div>
+                            <div className={style.row}>
+
                                 <div className={style.singleInfo}>
                                     <span>Email:</span>
                                     <p><a href="mailto:gurskygursky@example.com">gurskygursky@example.com</a></p>
@@ -38,6 +42,7 @@ export const About = () => {
                                 <div className={style.singleInfo}><span>From:</span>
                                     <p>Minsk, Belarus</p>
                                 </div>
+                            </div>
                         </address>
                     </div>
                 </div>

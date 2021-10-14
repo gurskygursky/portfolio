@@ -83,3 +83,10 @@
     flex-flow: row;
     justify-content: space-evenly;
 }
+
+.row {
+    display: flex;
+    flex-flow: column ;
+    margin-left: 15px;
+    margin-right: 15px;
+}
