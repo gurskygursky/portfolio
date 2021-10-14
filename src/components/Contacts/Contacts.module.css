@@ -1,16 +1,61 @@
 .container {
-    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
     background: bisque;
+    padding: 10px;
+    height: max-content;
+
+}
+
+.sectionContactsForm {
+    width: 80%;
+    display: flex;
+    flex-flow: row;
+    align-items: start;
+    align-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
 }
 
 .button {
-    width: 70px;
-    height: 30px;
-
+    width: 150px;
+    height: 35px;
+    border-radius: 15px;
+    background-color: forestgreen;
+    color: white;
 }
 
-.header {
+.messageForm {
     display: flex;
+    flex-flow: column;
+    align-items: center;
+    align-content: center;
+}
+
+.textarea {
+    height: 70px;
+    width: 300px;
+}
+
+.input {
     height: 30px;
-    justify-content: center;
+    width: 300px;
+}
+
+.sectionHeader {
+    background-color: yellow;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    align-content: center;
+}
+
+.sectionContactsInfo {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    align-content: center;
 }

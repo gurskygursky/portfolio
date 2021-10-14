@@ -1,15 +1,19 @@
 .content {
     background-color: cornflowerblue;
-    height: 100vh;
+    height: max-content;
     display: flex;
     align-items: center;
+    align-content: center;
     flex-flow: column;
-    justify-content: space-evenly;
 }
+
 .sectionHeading {
     display: flex;
     flex-flow: column;
+    align-items: center;
     align-content: center;
+    background-color: yellow;
+
 }
 
 .sectionDescription {
@@ -26,17 +30,19 @@
     display: flex;
     align-items: center;
     flex-flow: row;
-    justify-content: space-evenly;
-
+    justify-content: space-between;
 }
+
 .infoImg {
-    background-color: darkslategrey;
-
-
+    background-color: white;
+    width: 300px;
+    height: 300px;
 }
+
 .img {
 
 }
+
 .contentBlock {
 
 }
@@ -59,6 +65,7 @@
 .contentDescription {
 
 }
+
 .contentContact {
 
     font-size: 15px;
