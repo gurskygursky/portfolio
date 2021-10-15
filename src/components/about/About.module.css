@@ -5,6 +5,8 @@
     align-items: center;
     align-content: center;
     flex-flow: column;
+    padding: 10px;
+
 }
 
 .sectionHeading {
