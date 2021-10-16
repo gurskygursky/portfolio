@@ -15,7 +15,7 @@
     flex-flow: row;
     align-items: start;
     align-content: center;
-    justify-content: space-around;
+    /*justify-content: space-between;*/
     flex-wrap: wrap;
 
 }
@@ -28,7 +28,7 @@
     color: white;
 }
 
-.messageForm {
+.messageForm textarea, .messageForm input {
     display: flex;
     flex-flow: column;
     align-items: center;
@@ -37,12 +37,12 @@
 
 .textarea {
     height: 70px;
-    width: 300px;
+    /*width: 300px;*/
 }
 
 .input {
     height: 30px;
-    width: 300px;
+    /*width: 300px;*/
 }
 
 .sectionHeader {
@@ -57,5 +57,5 @@
     display: flex;
     flex-flow: column;
     align-items: center;
-    align-content: center;
+
 }
