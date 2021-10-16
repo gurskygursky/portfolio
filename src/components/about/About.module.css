@@ -1,39 +1,73 @@
 .content {
-    background-color: cornflowerblue;
+    /*background-color: cornflowerblue;*/
     height: max-content;
     display: flex;
     align-items: center;
     align-content: center;
     flex-flow: column;
-    padding: 10px;
+    padding: 17px;
 
 }
 
-.sectionHeading {
+.contentHeader {
     display: flex;
     flex-flow: column;
     align-items: center;
     align-content: center;
-    background-color: yellow;
-
+    position: relative;
+    /*background-color: yellow;*/
+}
+.contentHeader p {
+    margin: 0;
+}
+.contentHeaderTitle {
+    margin-top: 0;
+    font-size: 42px;
 }
 
+
+.contentHeader::before {
+    content: "";
+    position: absolute;
+    background: #fff;
+    width: 70px;
+    height: 2px;
+    bottom: 40px;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
+
 .sectionDescription {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 14px;
 }
 
 .sectionTitle {
 }
 
 .animatedBar {
+
 }
 
 .infoSection {
     width: 80%;
     display: flex;
     align-items: center;
+    align-content: center;
     flex-flow: row;
+    flex-wrap: wrap;
+
     justify-content: space-between;
 }
+
+/*.infoSection .infoContent .contentTitle {*/
+/*    font-size: 31px;*/
+/*    font-weight: 700;*/
+/*    line-height: 1.6;*/
+/*    margin-bottom: 16px;*/
+/*}*/
 
 .infoImg {
     background-color: white;
@@ -52,10 +86,10 @@
 .contentSubtitle {
 
 }
-
 .contentTitle {
-
+    position: relative;
 }
+
 
 .contentInfo {
     display: flex;

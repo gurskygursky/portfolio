@@ -1,6 +1,4 @@
 .App {
-    border: 1px solid crimson;
-    font-family: Helvetica;
     display: flex;
     flex-flow: column;
     height: 100vh;

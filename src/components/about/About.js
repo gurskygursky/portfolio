@@ -5,10 +5,10 @@ import style from './About.module.css';
 export const About = () => {
     return (
         <div className={style.content}>
-            <div className={style.sectionHeading}>
+            <div className={style.contentHeader}>
                 <p className={style.sectionDescription}>Get to know me</p>
-                <h2 className={style.sectionTitle}>About Me</h2>
-                <div className={style.animatedBar}>/</div>
+                <h2 className={style.contentHeaderTitle}>About Me</h2>
+                {/*<div className={style.animatedBar}>/</div>*/}
             </div>
             <div className={style.infoSection}>
                 <div className={style.infoImg}>
@@ -22,6 +22,7 @@ export const About = () => {
                             <p>I am a freelancer based in the Belarus. </p>
                         </div>
                     </div>
+
                     <div className={style.contentContact}>
                         <address className={style.contactInfo}>
                             <div className={style.row}>
@@ -45,6 +46,7 @@ export const About = () => {
                             </div>
                         </address>
                     </div>
+
                 </div>
             </div>
         </div>

@@ -30,3 +30,14 @@
 .link a:hover {
     color: #f5f5f7;
 }
+
+.link a:hover::before {
+    content: "";
+    position: absolute;
+    background: #fff;
+    width: 70px;
+    height: 2px;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
