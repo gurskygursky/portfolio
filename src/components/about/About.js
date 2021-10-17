@@ -1,15 +1,14 @@
 import React from "react";
 import style from './About.module.css';
+import {Header} from "../../common/header/Header";
 
 
 export const About = () => {
     return (
         <div className={style.content}>
-            <div className={style.contentHeader}>
-                <p className={style.sectionDescription}>Get to know me</p>
-                <h2 className={style.contentHeaderTitle}>About Me</h2>
-                {/*<div className={style.animatedBar}>/</div>*/}
-            </div>
+            <Header title={"About Me"}
+                    description={"Get to know me"}
+            />
             <div className={style.infoSection}>
                 <div className={style.infoImg}>
                     <img className={style.img} src="" alt="About Picture"/>
@@ -22,7 +21,6 @@ export const About = () => {
                             <p>I am a freelancer based in the Belarus. </p>
                         </div>
                     </div>
-
                     <div className={style.contentContact}>
                         <address className={style.contactInfo}>
                             <div className={style.row}>
@@ -46,7 +44,6 @@ export const About = () => {
                             </div>
                         </address>
                     </div>
-
                 </div>
             </div>
         </div>

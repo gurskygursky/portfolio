@@ -4,7 +4,7 @@ import style from './Skill.module.css';
 
 export const Skill = (props) => {
     return (
-        <div className={style.contentSkill}>
+        <div className={style.content}>
             <div className={style.skillIcon}>
             </div>
             <h3>{props.title}</h3>

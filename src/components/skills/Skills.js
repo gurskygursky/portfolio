@@ -1,15 +1,15 @@
 import React from "react";
 import style from './Skills.module.css';
 import {Skill} from "./skill/Skill";
+import {Header} from "../../common/header/Header";
 
 
 export const Skills = () => {
     return (
         <div className={style.content}>
-            <div className={style.sectionHeader}>
-                <p className={style.sectionDescription}>Check out my skills</p>
-                <h2 className={style.sectionTitle}>Skills</h2>
-            </div>
+            <Header description={"Check out my skills"}
+                    title={"Skills"}
+            />
             <div className={style.skillSection}>
                 <Skill title={'JavaScript'}
                        description={'text'}

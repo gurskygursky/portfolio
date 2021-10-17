@@ -3,21 +3,20 @@
     flex-direction: column;
     align-items: center;
     align-content: center;
-    background: bisque;
-    padding: 10px;
+    /*background: bisque;*/
     height: max-content;
 
 }
-
-.sectionContactsForm {
-    width: 80%;
+.containerMessageForm {
+}
+.containerContactsForm {
+    width: 100%;
     display: flex;
     flex-flow: row;
     align-items: start;
     align-content: center;
-    /*justify-content: space-between;*/
+    justify-content: space-around;
     flex-wrap: wrap;
-
 }
 
 .button {
@@ -28,21 +27,28 @@
     color: white;
 }
 
-.messageForm textarea, .messageForm input {
+.containerForm {
     display: flex;
+    flex-wrap: wrap;
     flex-flow: column;
-    align-items: center;
-    align-content: center;
+    width: auto;
 }
 
 .textarea {
     height: 70px;
-    /*width: 300px;*/
+    margin-bottom: 25px;
+    width: 300px;
+    background: #343a40;
 }
 
 .input {
     height: 30px;
-    /*width: 300px;*/
+    margin-bottom: 25px;
+    width: 300px;
+    background: #343a40;
+}
+.icon {
+
 }
 
 .sectionHeader {
@@ -53,7 +59,7 @@
     align-content: center;
 }
 
-.sectionContactsInfo {
+.containerContactsInfo {
     display: flex;
     flex-flow: column;
     align-items: center;
