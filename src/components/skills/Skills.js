@@ -11,25 +11,31 @@ export const Skills = () => {
                     title={"Skills"}
             />
             <div className={style.skillSection}>
+                <Skill title={'HTML/CSS'}
+                       description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit.\n' +
+                       '                            Dolore, porro rem quod illo quam, eum alias id, repellendus magni, quas.'}
+                />
+                <Skill title={'Web Design'}
+                       description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit.\n' +
+                       '                            Dolore, porro rem quod illo quam, eum alias id, repellendus magni, quas.'}
+                />
                 <Skill title={'JavaScript'}
-                       description={'text'}
+                       description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit.\n' +
+                       '                            Dolore, porro rem quod illo quam, eum alias id, repellendus magni, quas.'}
                 />
-                <Skill title={'React'}
-                       description={'text'}
-                />
-                <Skill title={'CSS'}
-                       description={'text'}
-                />
-                <Skill title={'Web Design'}
-                       description={'text'}
+                <Skill title={'React JS'}
+                       description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit.\n' +
+                       '                            Dolore, porro rem quod illo quam, eum alias id, repellendus magni, quas.'}
                        className={style.item}
                 />
-                <Skill title={'Web Design'}
-                       description={'text'}
+                <Skill title={'TypeScript'}
+                       description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit.\n' +
+                       '                            Dolore, porro rem quod illo quam, eum alias id, repellendus magni, quas.'}
                        className={style.item}
                 />
-                <Skill title={'Web Design'}
-                       description={'text'}
+                <Skill title={'Express.js'}
+                       description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit.\n' +
+                       '                            Dolore, porro rem quod illo quam, eum alias id, repellendus magni, quas.'}
                        className={style.item}
                 />
             </div>

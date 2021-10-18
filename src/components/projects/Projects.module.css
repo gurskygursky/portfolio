@@ -1,5 +1,5 @@
 .container {
-    background-color: darkslategrey ;
+    /*background-color: darkslategrey;*/
     height: 100vh;
     display: flex;
     flex-flow: column;
@@ -16,9 +16,25 @@
     align-content: center;
 }
 .sectionProjects {
-    width: 80%;
+    width: 100%;
     display: flex;
     flex-flow: row;
     justify-content: space-evenly ;
 
+}
+.contentPost {
+    width: 250px;
+    background-color: crimson;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.contentDescription {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #9f9f9f;
 }

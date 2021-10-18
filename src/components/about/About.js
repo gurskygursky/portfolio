@@ -18,7 +18,7 @@ export const About = () => {
                         <h2 className={style.contentSubtitle}>Who am i?</h2>
                         <h6 className={style.contentTitle}>I'm Yegor Gursky, a Frontend Developer</h6>
                         <div className={style.contentDescription}>
-                            <p>I am a freelancer based in the Belarus. </p>
+                            <p>I am a freelancer based in the United Kingdom and i have been building noteworthy UX/UI designs and websites for years, which comply with the latest design trends. I help convert a vision and an idea into meaningful and useful products. Having a sharp eye for product evolution helps me prioritize tasks, iterate fast and deliver faster. </p>
                         </div>
                     </div>
                     <div className={style.contentContact}>

@@ -1,5 +1,5 @@
 .content {
-    background-color: cornflowerblue;
+    /*background-color: cornflowerblue;*/
     height: max-content;
     display: flex;
     align-items: center;
@@ -40,14 +40,33 @@
 .contentBlock {
 
 }
+.contentBlock h2 {
+    margin: 0;
+}
+.contentBlock h6 {
+    margin: 0;
+
+}
 
 .contentSubtitle {
+    color: #009e66;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.contentBlock h6 {
+    margin: 0;
 
 }
+
 .contentTitle {
     position: relative;
+    font-size: 26px;
+    margin-bottom: 15px;
 }
-
+.contentDescription p {
+    margin: 0;
+}
 
 .contentInfo {
     display: flex;
