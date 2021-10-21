@@ -1,20 +1,56 @@
-.contentPost {
-    width: 250px;
-    background-color: #343a40;
-    color: #ffffff;
+.container {
+    width: 450px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
-    padding: 10px;
-    margin: 15px;
 }
+
+.contentProjectInfo {
+    color: #ffffff;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    align-content: center;
+    padding-top: 15px;
+
+}
+
+.contentProjectInfo h5 {
+    margin: 0 0 15px;
+}
+
+.contentProjectInfo p {
+    margin: 0 0 15px;
+}
+
+/*::before {*/
+/*    background-color: rgba(0,0,0,.9);*/
+/*    bottom: 0;*/
+/*    content: '';*/
+/*    height: 100%;*/
+/*    opacity: 0;*/
+/*    position: absolute;*/
+/*    transition: all .15s ease-in-out;*/
+/*    visibility: hidden;*/
+/*    width: 100%;*/
+/*    z-index: 1;*/
+/*}*/
 
 .contentImg {
-
+    width: -webkit-fill-available;
+    height: 300px;
+    background-color: #343a40;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
 }
 
-.img {
+.button {
 
 }
 
