@@ -1,21 +1,18 @@
 .container {
-    background-color: darkslategrey;
-    height: 100vh;
+    height: max-content;
     display: flex;
     flex-flow: column;
     align-items: center;
     align-content: center;
-    padding: 10px;
-    flex-wrap: wrap;
-
+    margin: 10px;
 }
+
 .containerProjects {
-    background-color: #343a40;
     display: flex;
     flex-flow: row;
     align-items: center;
     align-content: center;
-    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .sectionHeader {
