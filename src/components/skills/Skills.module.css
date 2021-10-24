@@ -1,5 +1,5 @@
 .content {
-    background-color: cadetblue;
+    /*background-color: cadetblue;*/
     height: max-content;
     display: flex;
     flex-flow: column;
@@ -10,19 +10,25 @@
 }
 
 .skillSection {
-    width: 80%;
+    /*width: 80%;*/
     display: flex;
     flex-flow: row;
     align-content: center;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     flex-wrap: wrap;
 }
 
 .sectionHeader {
-    background-color: yellow;
+    /*background-color: yellow;*/
     display: flex;
     flex-flow: column;
     align-content: center;
     align-items: center;
+}
+.imageIcon {
+    height: 128px;
+    width: 128px;
+    /*background-color: crimson;*/
+    /*margin-top: 15px;*/
 }

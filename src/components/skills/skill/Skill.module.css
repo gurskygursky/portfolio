@@ -1,7 +1,6 @@
 .content {
     width: 250px;
-    /*background-color: white;*/
-    background-color: #343a40;
+    background-color: teal;
     color: #ffffff;
     display: flex;
     flex-direction: column;
@@ -11,9 +10,8 @@
     padding: 10px;
 }
 
-.skillIcon {
-    height: 70px;
-    width: 70px;
-    background-color: crimson;
+.imageIcon {
+    height: 128px;
+    width: 128px;
     margin-top: 15px;
 }
